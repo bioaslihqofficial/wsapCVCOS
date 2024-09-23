@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random WhatsApp Bioasli CS</title>
+    <script type="text/javascript">
+        function redirectToWhatsApp() {
+            var links = [
+                'http://www.wasap.my/601118758524/pm_CVCOS', // WhatsApp Ain
+                'http://www.wasap.my/60176447686/pm_KapsulVCOSauda', // WhatsApp Janna
+                'http://www.wasap.my/60108384603/pm_KapsulVCOSauda'  // WhatsApp Linda
+            ];
+            var randomLink = links[Math.floor(Math.random() * links.length)];
+            window.location.href = randomLink;
+        }
+    </script>
+</head>
+<body onload="redirectToWhatsApp()">
+</body>
+</html>
